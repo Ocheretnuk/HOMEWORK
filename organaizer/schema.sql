@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS diary (
+	id	INTEGER PRIMARY KEY AUTOINCREMENT,
+	name	TEXT NOT NULL,
+	opisanie TEXT NOT NULL,
+	vremia	TEXT NOT NULL,
+	status TEXT DEFAULT 'ne_sdelano'
+)
